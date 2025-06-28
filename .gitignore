@@ -1,0 +1,20 @@
+# Ignorar archivos y carpetas temporales de Python
+*.pyc
+__pycache__/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos de configuración de editores
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Ignorar backups de Odoo
+*.zip
+*.bak
+*.tmp 
