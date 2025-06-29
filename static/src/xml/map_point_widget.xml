@@ -1,9 +1,0 @@
-<t t-name="crm_mudanza.MapPointWidget" owl="1">
-    <div class="o_form_field o_map_point_widget">
-        <div t-ref="map-container" style="height:400px; width:100%; border:1px solid #d3d3d3;"/>
-        <div class="btn-group mt-2" role="group">
-            <button type="button" class="btn btn-outline-primary" t-on-click="() => state.mode = 'origen'">Marcar Origen</button>
-            <button type="button" class="btn btn-outline-success" t-on-click="() => state.mode = 'destino'">Marcar Destino</button>
-        </div>
-    </div>
-</t>
