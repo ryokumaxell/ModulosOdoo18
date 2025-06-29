@@ -1,3 +1,12 @@
+# Ignora todo por defecto
+*
+
+# ¡Pero no ignores el propio .gitignore!
+!.gitignore
+
+# No ignores la carpeta helpdesk_jaysa y su contenido
+!helpdesk_jaysa/
+
 # Ignorar archivos y carpetas temporales de Python
 *.pyc
 __pycache__/
