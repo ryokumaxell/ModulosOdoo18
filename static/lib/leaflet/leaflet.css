@@ -1,0 +1,28 @@
+/*
+ * Leaflet 1.9.4, a JS library for interactive maps.
+ * http://leafletjs.com
+ * (c) 2010-2023 Vladimir Agafonkin
+ * (c) 2010-2011 CloudMade
+ * 2016-2023 Leaflet contributors
+ * Licence: https://github.com/Leaflet/Leaflet/blob/main/LICENSE
+ */
+/*
+ * @namespace CRS
+ * @category CRS
+ * @class Base
+ * @inherits Evented
+ * @aka L.CRS.Base
+ * Base class for any Coordinate Reference System object.
+ *
+ * @example
+ *
+ * ```js
+ * var crs = L.extend({}, L.CRS.Base, {
+ *   code: 'EPSG:3395',
+ *   projection: L.Projection.Mercator,
+ *   transformation: new L.Transformation(0.5, 0, -0.5, 0)
+ * });
+ * ```
+ */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css'); 

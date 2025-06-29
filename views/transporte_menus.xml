@@ -1,0 +1,24 @@
+<odoo>
+    <!-- ACCIÓN DE VENTANA -->
+    <record id="action_transporte_registro" model="ir.actions.act_window">
+        <field name="name">Transportes</field>
+        <field name="res_model">transporte.registro</field>
+        <!-- ¡Aquí está la clave! Kanban es la primera vista -->
+        <field name="view_mode">kanban,list,form</field>
+    </record>
+
+    <!-- MENÚ PRINCIPAL -->
+    <menuitem
+        id="menu_transporte_root"
+        name="CRM Mudanza"
+        web_icon="crm_mudanza,static/description/icon.png"
+        sequence="9"/>
+
+    <!-- MENÚ SECUNDARIO -->
+    <menuitem
+        id="menu_transporte_registros"
+        name="Registros"
+        parent="menu_transporte_root"
+        action="action_transporte_registro"
+        sequence="10"/>
+</odoo>
